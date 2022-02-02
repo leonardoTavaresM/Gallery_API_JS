@@ -11,21 +11,23 @@
     <link rel="stylesheet" href="./css/gallery.css">
     <link rel="stylesheet" href="./css/card.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <title>Document</title>
+    <title>Gallery - API</title>
 </head>
 <body>
     <header>
-        <div class="logo"><img src="../img/pxArt.png" alt="" class="logo-img"></div>
+        <div class="logo"><a href="https://github.com/leonardoTavaresM"><img src="../img/pxArt.png" alt="" class="logo-img"></a></div>
         <div class="search-container">
-            <label for="search-input" class="search-icon"></label>
+            <label for="search-input" class="search-icon" data-search-button></label>
             <input type="text" class="search-input" placeholder="Search images" data-search-input>
         </div>
     </header>
-    <main>
-        <section class="container-gallery" data-container-gallery>
-            <div class="action-button" id="previous">&laquo</div>
-            <div class="container-img" data-container-img></div>
-            <div class="action-button" id="next">&raquo</div>
+    <main data-main>
+        <section class="container" data-section-container>
+            <div class="container-gallery" data-container-gallery>
+                <div class="action-button" id="previous">&laquo</div>
+                <div class="container-img" data-container-img></div>
+                <div class="action-button" id="next">&raquo</div>
+            </div>
         </section>
     </main>
     <footer>
